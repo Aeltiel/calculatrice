@@ -1,0 +1,11 @@
+{
+  "name": "calculatrice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculatrice.js",
+  "scripts": {
+    "sass" : "sass --watch ./css/main.scss:./css/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
