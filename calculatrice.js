@@ -31,3 +31,11 @@ function division (x){
 function reset(){
     total =0;
 }
+
+// Ajout des evenements on click
+const boutton = document.querySelectorAll("button");
+const result = document.querySelector(".calc__reset");
+
+boutton.addEventListener("click", ()=>{
+    result.textContent = "test";
+});

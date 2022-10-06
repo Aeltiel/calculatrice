@@ -1,0 +1,25 @@
+button{
+    width: 55px;
+    height: 55px;
+    border: 2px solid $button;
+    background-color: lighten($button, 20%);
+    margin: 3px;
+    font-weight: bold;
+    &:hover{
+        background-color: $button;
+        color: white;
+    }
+}
+
+.grand{
+    width: 125px;
+}
+
+.reset{
+    width: 125px;
+    background-color: $resetButton;
+    border: 2px solid black;
+    &:hover{
+        background-color: darken($resetButton, 10%);
+    }
+}
