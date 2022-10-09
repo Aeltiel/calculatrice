@@ -3,6 +3,14 @@ h1{
     justify-content: center;
 }
 
+h2{
+    margin: 0;
+    text-align: end;
+    height: 30px;
+    width: 98%;
+    font-size: 28px;
+}
+
 .fa-heart{
     color: pink;
 }
@@ -24,7 +32,7 @@ h1{
         border: 3px solid $resultScreen;
         border-radius: 10px;
         margin-bottom: 10px;
-        background-color: lighten($resultScreen, 30%);
+        background-color: lighten($resultScreen, 30%); 
     }
     &__reset{
         margin-bottom: 5px;
